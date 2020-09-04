@@ -452,7 +452,7 @@ def main(filename1, filename2, filename3, filename4, filename5, filename6, weigh
         major_ratio = major_length/(major_length + minor_length)
         minor_ratio = minor_length/(major_length + minor_length)
         
-        if length(g_) < 0.5 and angle_phi > 20 and angle_phi < 50:
+        if length(g_) < 0.5 and (180/math.pi)*angle_phi > 20 and (180/math.pi)*angle_phi < 50:
             logging.info('')         
             logging.info('current major ratio:'+str(major_ratio))
             logging.info('current minor ratio:'+str(minor_ratio))
