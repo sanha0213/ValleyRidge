@@ -1283,27 +1283,27 @@ if __name__ == '__main__':
 
 
     if not os.path.isfile(args.GausFile1):
-        print (args.GausFile + " is not a valid file.")
+        print (args.GausFile1 + " is not a valid file.")
         quit()
 
     if not os.path.isfile(args.GausFile2):
-        print (args.GausFile + " is not a valid file.")
+        print (args.GausFile2 + " is not a valid file.")
         quit()
 
     if not os.path.isfile(args.GausFile3):
-        print (args.GausFile + " is not a valid file.")
+        print (args.GausFile3 + " is not a valid file.")
         quit()
 
     if not os.path.isfile(args.GausFile4):
-        print (args.GausFile + " is not a valid file.")
+        print (args.GausFile4 + " is not a valid file.")
         quit()
 
     if not os.path.isfile(args.GausFile5):
-        print (args.GausFile + " is not a valid file.")
+        print (args.GausFile5 + " is not a valid file.")
         quit()
 
     if not os.path.isfile(args.GausFile6):
-        print (args.GausFile + " is not a valid file.")
+        print (args.GausFile6 + " is not a valid file.")
         quit()
 
     main(args.GausFile1, args.GausFile2, args.GausFile3, args.GausFile4, args.GausFile5, args.GausFile6, args.weight_option)
